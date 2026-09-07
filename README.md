@@ -30,8 +30,8 @@ Python 3.13의 Conda `rag` 환경에서 사용한 코드입니다. 기존 환경
 ```powershell
 conda create -n rag python=3.13
 conda activate rag
-git clone https://github.com/jaejinseo/Active-Retrieval-Augmented-Generation-FLARE-dosilt.git
-cd Active-Retrieval-Augmented-Generation-FLARE-dosilt
+git clone --branch docs/flare-code-walkthrough https://github.com/dosilt/jaejinseo-Active-Retrieval-Augmented-Generation-FLARE-dosilt.git
+cd jaejinseo-Active-Retrieval-Augmented-Generation-FLARE-dosilt
 python -m pip install -r requirements.txt
 Copy-Item .env.example .env
 ```
@@ -277,9 +277,9 @@ answer = f"{answer} {sentence}".strip()
 
 > 전체 코드와 실행 방법은 GitHub에 정리했다. README에서는 최초 검색, 임시 문장 생성, 확률 기반 검색 판단, masking, 재생성, context 관리 순서로 논문의 수식과 실제 함수를 연결한다. 현재 구현과 논문 실험 설정의 차이도 함께 표시했다.
 
-- [전체 코드 해설](https://github.com/jaejinseo/Active-Retrieval-Augmented-Generation-FLARE-dosilt#part-1)
-- [검색 판단 θ](https://github.com/jaejinseo/Active-Retrieval-Augmented-Generation-FLARE-dosilt#part-4)
-- [Masking β](https://github.com/jaejinseo/Active-Retrieval-Augmented-Generation-FLARE-dosilt#part-5)
-- [재생성과 context 관리](https://github.com/jaejinseo/Active-Retrieval-Augmented-Generation-FLARE-dosilt#part-6)
+- [전체 코드 해설](https://github.com/dosilt/jaejinseo-Active-Retrieval-Augmented-Generation-FLARE-dosilt/tree/docs/flare-code-walkthrough#part-1)
+- [검색 판단 θ](https://github.com/dosilt/jaejinseo-Active-Retrieval-Augmented-Generation-FLARE-dosilt/tree/docs/flare-code-walkthrough#part-4)
+- [Masking β](https://github.com/dosilt/jaejinseo-Active-Retrieval-Augmented-Generation-FLARE-dosilt/tree/docs/flare-code-walkthrough#part-5)
+- [재생성과 context 관리](https://github.com/dosilt/jaejinseo-Active-Retrieval-Augmented-Generation-FLARE-dosilt/tree/docs/flare-code-walkthrough#part-6)
 
 원 논문의 §3.2, Appendix A, Table 9와 함께 읽으면 알고리즘·실험 설정·현재 구현을 구분하기 쉽습니다.
