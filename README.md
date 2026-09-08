@@ -4,6 +4,7 @@
 
 - [논문 · EMNLP 2023](https://aclanthology.org/2023.emnlp-main.495/)
 - [저자들의 공식 구현](https://github.com/jzbjyb/FLARE)
+- [FLAREinstruct와 FLAREdirect 비교 이미지 생성 프롬프트](docs/FLARE_TWO_METHODS_IMAGE_PROMPT.md)
 - 이 저장소는 개인 학습용 구현이며 공식 구현의 복제본이 아닙니다.
 - 블로그 글 주소는 발행 후 이 위치에 연결할 예정입니다.
 
